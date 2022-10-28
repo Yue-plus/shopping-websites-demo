@@ -1,0 +1,20 @@
+.Carousel {
+  max-width: 1226px;
+  margin: 0 auto;
+
+  img {
+    min-height: 460px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  h3, p {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.Caption {
+  user-select: none;
+  pointer-events: none;
+}
