@@ -8,7 +8,11 @@ import Carousels from "./components/Carousels/Carousels";
 
 function App() {
   return (
-    <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']} minBreakpoint="xxs">
+    <ThemeProvider
+      breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+      minBreakpoint="xxs"
+      style={{backgroundColor: '#f5f5f5'}}
+    >
       <NavBar/>
       <Carousels/>
       <Footer/>
