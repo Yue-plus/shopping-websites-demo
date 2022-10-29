@@ -2,7 +2,7 @@ import {Container} from "react-bootstrap";
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: 'black', textAlign: 'center', position: 'fixed', right: 0, left: 0, bottom: 0}}>
+    <footer style={{backgroundColor: 'black', textAlign: 'center'}}>
       <Container>
         <a
           target='_blank'

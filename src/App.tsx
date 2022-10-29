@@ -5,6 +5,7 @@ import {ThemeProvider} from "react-bootstrap";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Carousels from "./components/Carousels/Carousels";
+import Catalogue from "./components/Catalogue/Catalogue";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     >
       <NavBar/>
       <Carousels/>
+      <Catalogue/>
       <Footer/>
     </ThemeProvider>
   )
