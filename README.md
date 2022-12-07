@@ -16,7 +16,7 @@ yarn
 yarn start
 ```
 
-** 使用 NPM 时：**
+**使用 NPM 时：**
 
 ```shell
 npm i
