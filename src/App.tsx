@@ -4,22 +4,9 @@ import {ThemeProvider} from "react-bootstrap";
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from "./pages/Home";
-import Info from "./pages/Info";
-import Car from "./pages/Car";
-import Pay from "./pages/Pay";
-import SignUp from "./pages/SignUp";
-import SignIn from "./pages/SignIn";
+import {Outlet} from "react-router-dom";
 
-const routes = createBrowserRouter([
-  {path: '/', element: <Home/>},
-  {path: '/info', element: <Info/>},
-  {path: '/car', element: <Car/>},
-  {path: '/pay', element: <Pay/>},
-  {path: '/signup', element: <SignUp/>},
-  {path: '/signin', element: <SignIn/>},
-])
+
 
 function App() {
   return (
@@ -29,7 +16,7 @@ function App() {
       style={{backgroundColor: '#f5f5f5'}}
     >
       <NavBar/>
-      <RouterProvider router={routes}/>
+      <Outlet/>
       <Footer/>
     </ThemeProvider>
   )
