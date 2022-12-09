@@ -8,8 +8,10 @@ function NavBar() {
         <Nav className="me-auto">
           <Nav.Link href="/" >商品目录</Nav.Link>
           <Nav.Link href="/info">商品详情</Nav.Link>
-          <Nav.Link href="/car">购物车</Nav.Link>
-          <Nav.Link href="/pay">付款界面</Nav.Link>
+          {/*<Nav.Link href="/car">购物车</Nav.Link>*/}
+          {/*<Nav.Link href="/pay">付款界面</Nav.Link>*/}
+          <Nav.Link href="/SignUp">注册</Nav.Link>
+          <Nav.Link href="/SignIn">登入</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

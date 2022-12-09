@@ -9,12 +9,16 @@ import Home from "./pages/Home";
 import Info from "./pages/Info";
 import Car from "./pages/Car";
 import Pay from "./pages/Pay";
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
 
 const routes = createBrowserRouter([
   {path: '/', element: <Home/>},
   {path: '/info', element: <Info/>},
   {path: '/car', element: <Car/>},
   {path: '/pay', element: <Pay/>},
+  {path: '/signup', element: <SignUp/>},
+  {path: '/signin', element: <SignIn/>},
 ])
 
 function App() {
